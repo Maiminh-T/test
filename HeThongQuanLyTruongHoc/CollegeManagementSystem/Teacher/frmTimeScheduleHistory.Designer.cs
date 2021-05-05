@@ -187,6 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Violet;
             this.ClientSize = new System.Drawing.Size(855, 481);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancel);

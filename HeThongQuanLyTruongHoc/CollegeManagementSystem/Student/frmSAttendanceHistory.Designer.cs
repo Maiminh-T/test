@@ -33,7 +33,6 @@
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataAttendanceHistory = new System.Windows.Forms.DataGridView();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StudentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RollNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,6 +40,7 @@
             this.Semester = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AttendanceDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Attendance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataAttendanceHistory)).BeginInit();
             this.SuspendLayout();
@@ -115,16 +115,6 @@
             this.dataAttendanceHistory.Size = new System.Drawing.Size(700, 366);
             this.dataAttendanceHistory.TabIndex = 1;
             // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(637, 443);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 31);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
             // Id
             // 
             this.Id.HeaderText = "Id";
@@ -168,11 +158,21 @@
             this.Attendance.Name = "Attendance";
             this.Attendance.ReadOnly = true;
             // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(637, 443);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 31);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
             // frmSAttendanceHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(724, 482);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.dataAttendanceHistory);
